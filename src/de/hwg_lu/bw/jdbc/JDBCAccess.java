@@ -21,10 +21,6 @@ public abstract class JDBCAccess {
 	public abstract void setDBParms();
 //	public void setDBParms(){
 //		dbDrivername = "com.ibm.db2.jcc.DB2Driver";
-//		dbURL = "jdbc:db2://143.93.202.3:50000/OUEBDB";
-//		dbUser = "USER50";
-//		dbPassword = "db2users";
-//		dbSchema = "S654321";
 //	}
 	public void setSchema() throws NoConnectionException {
 		try{
